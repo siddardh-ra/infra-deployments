@@ -3,8 +3,8 @@ kind: Kustomization
 resources:
   - ../base/argocd-roles
   - ../base/external-secrets
-  - https://github.com/redhat-appstudio/application-service/config/default?ref=a54664f8881964b4d7d12f8e86c2d02847f2a91b
-  - https://github.com/redhat-appstudio/application-service/config/prometheus/?ref=a54664f8881964b4d7d12f8e86c2d02847f2a91b
+  - https://github.com/redhat-appstudio/application-service/config/default?ref=72bbec89733099d5ef81bd37d3aa897841378b99
+  - https://github.com/redhat-appstudio/application-service/config/prometheus/?ref=72bbec89733099d5ef81bd37d3aa897841378b99
 
 components:
   - ../k-components/manager-resources
@@ -14,7 +14,7 @@ components:
 images:
   - name: quay.io/redhat-appstudio/application-service
     newName: quay.io/redhat-appstudio/application-service
-    newTag: a54664f8881964b4d7d12f8e86c2d02847f2a91b
+    newTag: 72bbec89733099d5ef81bd37d3aa897841378b99
 
 configMapGenerator:
   - literals:
