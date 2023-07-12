@@ -1,4 +1,4 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- https://github.com/redhat-appstudio/release-service/config/grafana/?ref=bc67ba2f68c4719d059b3b295f1dfd7ba1571e36
+- https://github.com/redhat-appstudio/release-service/config/grafana/?ref=60962e1dfd9e5b2270f49de2571459b16089a714
